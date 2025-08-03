@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class com2301{
+public class CompoundInterest{
   public static void main(String[]args){
     Scanner sim = new Scanner(System.in);
 
