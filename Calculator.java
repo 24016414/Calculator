@@ -10,14 +10,14 @@ public class Calculator{
      char operation;
 
      System.out.println("enter the first number : ");
-      num = sim.nextInt();
+      num = sim.nextDouble();
 
      System.out.println("enter the second number : ");
-      nam = sim.nextInt();
+      nam = sim.nextDouble();
 
      System.out.println("chose a character you want to use for the operation ( + , - , / , * , ^ , % ) ");
       operation =sim.next().charAt(0);
-
+ 
      switch(operation){
         case '+' -> {
                     answer = num + nam;
